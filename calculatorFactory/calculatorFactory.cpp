@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Calculator.h"
+#include "KineticEnergyCalculator.h"
 using namespace std;
 
 int main() {
@@ -11,6 +12,10 @@ int main() {
     // Ejemplo (cuando tengas tu clase):
     // calcs[count++] = new MyCalculator(...);
     // =============================
+
+    calcs[count++] = new  KineticEnergyCalculator(20,12);
+
+
 
     // Ejecutar todas las calculadoras
     for (int i = 0; i < count; i++) {
