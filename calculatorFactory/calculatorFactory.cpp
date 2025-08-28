@@ -17,7 +17,7 @@ int main() {
         calcs[i]->calculate();
         calcs[i]->print();
     }
- 
+
     for (int i = 0; i < count; i++) {
         delete calcs[i];
     }
