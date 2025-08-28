@@ -1,3 +1,6 @@
+#pragma once
+#include <iostream>
+
 class Calculator {
 protected:
     double result; // solo lectura

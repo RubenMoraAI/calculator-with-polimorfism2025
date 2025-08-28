@@ -16,7 +16,7 @@ void KineticEnergyCalculator::calculate()
 void KineticEnergyCalculator::print() const
 {
 	std::cout << "Kinetic Energy Calculator: "
-		<< "0.5   * " << mass << " * " << volume << " = " << result;
+		<< "0.5   * " << mass << " * " << volume << "elevado a la 2" << " = " << result;
 
 
 }
